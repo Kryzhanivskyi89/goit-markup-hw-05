@@ -620,10 +620,6 @@ body {
     fill: currentColor;
 }
 
-.social:hover,
-.social:focus {
-   fill: #ffffff
-}
 .clients {
     display: flex;
     margin: 0px;
@@ -692,6 +688,9 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration: none;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contact {
@@ -702,8 +701,8 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     transition-property: color, background-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social {
     width: 206px;
@@ -736,8 +735,8 @@ body {
     width: 44px;
     height: 44px;
     transition-property: color, background-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-item:hover,
 .footer-social-item:focus {
